@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700&family=Lora&family=Poppins&family=Roboto:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&family=Inter:wght@100;300;500;700&family=Lora&family=Poppins&family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+  background: #040404;
+  background-image: url(model-1209985_1920\ 1.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-position-x: 320px;
+  background-position-y: 20px;
+  background-size: 920px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    margin-right: 130px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.itens{
+    color: white;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.imgPrincipal{
+    margin-left: 54px;
+    width: 130px;
+}
+
+.corpoPrincipal{
+    display: flex;
+    flex-direction: row;
+}
+.corpo{
+    display: flex;
+    flex-direction: column;
+}
+.titulo{
+    color: #E0FF65;
+    font-size: 75px;
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 20px;
+    margin-left: 80px;
+    max-width: 200px;
+    margin-top: 40px;
+    line-height: 100px;
+}
+
+.subtitulo{
+    color: white;
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 85px;
+    font-size: 15px;
+    
+}
+
+.paragrafo{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    max-width: 300px;
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: 85px;
+}
+
+.botao{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    width: 150px;
+    height: 40px;
+    margin-left: 83px;
+    background-color: #E0FF65;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    width: 100px;
+    height: 800px;
+    background-color: black;
+    margin-left: 800px;
+    margin-top: -280px;
+}
+
+.sociais{
+    position: relative;
+    top: 450px;
+    width: 20px;
+}
+
+.sociais1{
+    position: relative;
+    top: 440px;
+    width: 70px;
+}
+
+.botao:hover{
+    background-color: white;
+}
